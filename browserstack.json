@@ -1,0 +1,29 @@
+{
+    "auth": {
+      "username": "laurenlingham_hTHMXb",
+      "access_key": "qxqQhEJfLSG39FHjwLJh"
+    },
+    "browsers": [{
+        "browser": "chrome",
+        "os": "Windows 10",
+        "versions": ["latest", "latest - 1"]
+      },
+      {
+        "browser": "firefox",
+        "os": "OS X Mojave",
+        "versions": ["latest", "latest - 1"]
+      },
+      {
+        "browser": "edge",
+        "os": "OS X Catalina",
+        "versions": ["latest"]
+      }
+    ],
+    "run_settings": {
+      "cypress_config_file": "./cypress.config.js",
+      "cypress_version": "12.3",
+      "project_name": "Cypress sample build",
+      "build_name": "Build no. 1",
+      "parallels": "5"
+    }
+  }
